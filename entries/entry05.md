@@ -22,3 +22,5 @@ Literally, have all the content different but same layout. Name the company PYB
  1) Don't rush into the project. I did that in the past and I feel like that really made the work 
  feel harder; now, that I have done a little basic planning on this Sass project
   I really do feel kind of better!
+  
+  <img src="../images/planning.jpeg"/>
