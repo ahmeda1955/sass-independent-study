@@ -18,7 +18,7 @@ div {
 Nesting styles is simple enough. You just enclose a selector (or selectors) inside the curly braces of another selector.
 
 
-```css
+```Sass
 
 .parent {
     .child {
