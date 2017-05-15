@@ -1,4 +1,4 @@
-# Entry 5: Actual work with **_SASS_**
+# Entry 6: Actual work with **_SASS_**
 
 I think this has by far been the most challenging week in my SASS journey. I am trying to get to work 
 and start working on my website! However, I am having some issues set it up.
