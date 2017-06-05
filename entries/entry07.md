@@ -26,13 +26,13 @@ After taking a closer look at,
 sass --watch input.scss:output.css
 ```
 
-I realized that two files are part of that command, "input.scss" and "output.css". So, 
+I realized that two files are part of that command, `input.scss` and "output.css". So, 
 I went ahead and created those using the touch command. Then I ran the new command I found out about, 
 ```Sass
 sass input.scss output.css
 ```
 
-Upon doing that, I realized that a file with the name " output.css.map" was created, and it contained the following code.
+Upon doing that, I realized that a file with the name `output.css.map` was created, and it contained the following code.
 <img src="../images/Screenshot (10).png"/>
 
 
@@ -43,7 +43,7 @@ Then, I realized that this is finally how SASS could easily work:
 
 After making two files, one input, and output; All you have to do is type your 
 Sassy code in the input file, then SASS does all the work and transfers the worked up
-code to the "Output" as a regular css file your HTML could understand.
+code to the `Output` as a regular css file your HTML could understand.
 
 Of course, you link your code to your Sass using 
 ```Html
@@ -58,14 +58,14 @@ sass --watch input.scss:output.css
 After you get your input and output files set up. 
 What that does is tell Sass  to watch the file and update the CSS every time the Sass file changes.
 Yes, that would happen regardless, when you type into input save, and refresh. However, that command saves you from all the hassle and
-makes life easier by allowing you to see real-time changes to your output.css file as you type 
-into your index.scss file. It's actually pretty cool to see too!
+makes life easier by allowing you to see real-time changes to your `output.css` file as you type 
+into your `index.scss` file. It's actually pretty cool to see too!
 
 That's a screenshot of my output.css file to give you an idea of how thingws are.
 
 <img src="../images/Screenshot (11).png"/>
 
-Sass did all that for me. I never typed anything into output.css. I type intpo 
+Sass did all that for me. I never typed anything into `output.css`. I type intpo 
 the input file and after running the --watch command I saw all my work get converted and transferred 
 to the output file.
 
